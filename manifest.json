@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Some tests for Minecraft.",
+        "name": "Starter Tests",
+        "uuid": "1a2f42bd-98d4-4e0d-8e3f-934ab8a0c05e",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 20, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Script that implements basic starter tests.",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "1a1b53fc-5653-4a75-91b7-9cdf027674ae",
+            "version": [0, 0, 1],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.12.0-beta"
+      },
+      {
+        "module_name": "@minecraft/server-gametest",
+        "version": "1.0.0-beta"
+      }
+    ]
+}
