@@ -23,7 +23,7 @@ GameTest.register("SculkSensorDetectionTest", "sculk_sensor_not_detecting", (tes
   const player = test.spawnSimulatedPlayer({ x: 5, y: 2, z: 3}, "sculk_sensor_not_detecting", "survival");
 
   player.runCommand(`setblock ~-2~~ sculk_sensor`);
-  player.runCommand(`setblock ~-3~~ piston ["facing_direction":3]`);
+  player.runCommand(`setblock ~-3~~ piston ["facing_direction"=3]`);
   player.runCommand(`setblock ~-3~~-1 dirt`);
   player.runCommand(`fill ~-1~~ ~-1~~-2 wool`);
 
