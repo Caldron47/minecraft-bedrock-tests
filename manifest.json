@@ -5,7 +5,7 @@
         "name": "Starter Tests",
         "uuid": "1a2f42bd-98d4-4e0d-8e3f-934ab8a0c05e",
         "version": [0, 0, 1],
-        "min_engine_version": [ 1, 20, 0 ]
+        "min_engine_version": [ 1, 21, 0 ]
     },
     "modules": [
         {
